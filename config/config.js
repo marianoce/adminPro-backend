@@ -1,0 +1,1 @@
+module.exports.SEED = 'sed-hard-dificil';
