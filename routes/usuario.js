@@ -84,7 +84,7 @@ app.put('/:id', mdAuth.verificaToken, (req, res) => {
 
 
 // POST
-app.post('/', mdAuth.verificaToken, (req, res) => {
+app.post('/', (req, res) => {
 
     var body = req.body;
 

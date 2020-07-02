@@ -14,7 +14,6 @@ var app = express();
 
 var Usuario = require('../models/usuario');
 
-
 // LOGIN GOOGLE
 async function verify(token) {
     const ticket = await client.verifyIdToken({
